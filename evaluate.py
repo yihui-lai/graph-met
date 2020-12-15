@@ -161,7 +161,7 @@ def evaluate(model, loss_fn, dataloader, metrics, deltaR, model_dir, save_plot):
 
     if(save_plot):
         plt.figure(1)
-        plt.axis([0, 400, 0, 25])
+        plt.axis([0, 400, 0, 35])
         plt.xlabel(r'$q_{T}$ [GeV]')
         plt.ylabel(r'$\sigma (u_{\perp})$ [GeV]')
         plt.legend()
@@ -170,7 +170,7 @@ def evaluate(model, loss_fn, dataloader, metrics, deltaR, model_dir, save_plot):
         plt.close()
 
         plt.figure(2)
-        plt.axis([0, 400, 0, 30])
+        plt.axis([0, 400, 0, 35])
         plt.xlabel(r'$q_{T}$ [GeV]')
         plt.ylabel(r'Scaled $\sigma (u_{\perp})$ [GeV]')
         plt.legend()
@@ -179,7 +179,7 @@ def evaluate(model, loss_fn, dataloader, metrics, deltaR, model_dir, save_plot):
         plt.close()
 
         plt.figure(3)
-        plt.axis([0, 400, 0, 45])
+        plt.axis([0, 400, 0, 60])
         plt.xlabel(r'$q_{T}$ [GeV]')
         plt.ylabel(r'$\sigma (u_{\parallel})$ [GeV]')
         plt.legend()
